@@ -1,4 +1,20 @@
 <settings>
+  <proxies>
+    <proxy>
+          <active>true</active>
+          <protocol>http</protocol>
+          <host>192.168.11.17</host>
+      <port>8080</port>
+      <nonProxyHosts>localhost|127.0.0.1|172.20.55.227|172.20.55.46|172.17.0.5|172.30.136.81|nexus</nonProxyHosts>
+    </proxy>
+    <proxy>
+          <active>true</active>
+          <protocol>https</protocol>
+          <host>192.168.11.17</host>
+      <port>8080</port>
+      <nonProxyHosts>localhost|127.0.0.1|172.20.55.227|172.20.55.46|172.17.0.5|172.30.136.81|nexus</nonProxyHosts>
+    </proxy>
+  </proxies>
   <servers>
      <server>
         <id>nexus</id>
